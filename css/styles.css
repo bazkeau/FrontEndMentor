@@ -54,14 +54,14 @@ td {
 
 .whitebtn {
   background-color: white;
-  padding: 10px 20px 10px 20px;
+  padding: 6px 20px;
   border-radius: 2px;
   color: violet;
 }
 
 .whitebtn:hover {
   background-color: violet;
-  padding: 10px 20px 10px 20px;
+  padding: 6px 20px;
   border-radius: 2px;
   color: white;
 }
@@ -115,7 +115,7 @@ td {
 
 .pinkbtn {
   background-color: hsl(322, 100%, 66%);
-  padding: 10px 20px 10px 20px;
+  padding: 6px 20px;
   border-radius: 2px;
   color: white;
 }
