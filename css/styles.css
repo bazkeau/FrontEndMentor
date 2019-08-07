@@ -1,0 +1,184 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  margin: 0;
+  background-color: #effcff;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  margin-top: 60px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: darkgray;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+td {
+  max-width: 50%;
+}
+
+.padded-cell {
+  padding: 15px;
+}
+
+.logo-bottom {
+  padding: 15px 15px 30px 0;
+}
+
+.top-container {
+  height: 10%;
+  width: 100%;
+  padding: 50px;
+}
+
+.right {
+  position: absolute;
+  right: 5%;
+}
+
+.whitebtn {
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+  color: violet;
+}
+
+.whitebtn:hover {
+  background-color: violet;
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+  color: white;
+}
+
+.pink-square {
+  position: absolute;
+  width: 1500px;
+  height: 1500px;
+  background-color: violet;
+  background-image: linear-gradient(to bottom, hsl(322, 100%, 66%), hsl(265, 100%, 66%));
+  border-radius: 10%;
+  left: 750px;
+  top: -750px;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+.white-square {
+  position: absolute;
+  width: 1400px;
+  height: 800px;
+  background-color: white;
+  border-radius: 10%;
+  left: 0px;
+  top: 500px;
+  transform: rotate(-35deg);
+  z-index: -2;
+}
+
+.top-logo {
+  position: relative;
+  padding: 2%;
+  top: 0;
+  left: 0;
+}
+
+.intro-container {
+  text-align: center;
+  width: 100%;
+  margin: 100px auto;
+}
+
+.intro-img {
+  width: 80%;
+  max-width: 900px;
+  max-height: 900px;
+}
+.intro-txt{
+  max-width: 600px;
+  margin: auto;
+}
+
+.pinkbtn {
+  background-color: hsl(322, 100%, 66%);
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+  color: white;
+}
+
+.pinkbtn:hover {
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+  color: hsl(322, 100%, 66%);
+}
+
+.details-container {
+  width: 80%;
+  margin: 400px auto 100px;
+}
+
+.users-img {
+  width: 100%;
+}
+
+.tryit-container {
+  width: 60%;
+  margin: 100px auto;
+  max-width: 500px;
+  background-color: white;
+  text-align: center;
+  padding: 50px 20px;
+  box-shadow: 0 10px 10px 10px #888888;
+}
+
+.bottom-container {
+  padding: 50px;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  fill: white;
+}
+
+.bottom-table {
+  vertical-align: top;
+  table-layout: fixed;
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.left-cell {
+  min-width: 300px;
+  width: 30%;
+}
+.middle-cell {
+  min-width: 200px;
+  width: 17%;
+}
+.right-cell {
+  min-width: 300px;
+  width: 26%;
+  max-width: 26%;
+}
+.inside-table{
+  padding: 10px 0px;
+}
+.social-icon {
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+}
